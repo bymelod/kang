@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kangolkids</title>
+    
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="../js/common.js"></script>     
+    <script src="../script/jquery-1.12.4.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+
+                <div class="top">
+                    <div class="wrap">
+                         <ul class="link">
+                            <li><a href="#x"><img src="../images/kangol_w.png" alt="캉골로고타입"></a></li>
+                            <li><a href="#x"><img src="../images/kangolkids_w.png" alt="캉골키즈로고타입"></a></li>
+                         </ul>
+                        <div class="notice">
+                            <img src="../images/top-text.png" alt="상단 알림">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <div class="wrap">
+                        <ul class="gnb">
+                            <li><a href="#x">APPAREL</a>
+                            <ul>
+                                <li><a href="#x">VIEW ALL</a></li>
+                                <li><a href="#x">OUTER</a></li>
+                                <li><a href="#x">T-SHIRTS&KNIT</a></li>
+                                <li><a href="#x">DENIM</a></li>
+                                <li><a href="#x">PANTS</a></li>
+                                <li><a href="#x">ONE-PIECE&SKIRT</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#x">BAG</a>
+                            <ul>
+                                <li><a href="#x">VIEW ALL</a></li>
+                                <li><a href="#x">BACK PACK</a></li>
+                                <li><a href="#x">SLING BAG</a></li>
+                                <li><a href="#x">CROSS BAG & SHOULDER BAG</a></li>
+                                <li><a href="#x">ECO BAG & TOTE BAG</a></li>
+                                <li><a href="#x">WALLET</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#x">CAP</a>
+                            <ul>
+                                <li><a href="#x">VIEW ALL</a></li>
+                                <li><a href="#x">BALL CAP & SNAP BACK</a></li>
+                                <li><a href="#x">BUCKET</a></li>
+                                <li><a href="#x">FASHION HAT</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#x">BOARD</a>
+                            <ul>
+                                <li><a href="#x">공지사항</a></li>
+                                <li><a href="#x">1:1 문의</a></li>
+                                <li><a href="#x">고객 리뷰</a></li>
+                                <li><a href="#x">EVENT</a></li>
+                                <li><a href="#x">LOOK BOOK</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                        <div class="logo">
+                            <a href="#x">
+                                <img src="../images/logo.png" class="bk" alt="상단로고이미지">
+                                <img src="../images/logo_w.png" class="wh" alt="상단로고흰색">
+                            </a>
+                        </div>
+                        <div class="member">
+                            <div class="search">
+                                <a href="#x">
+                                    <img src="../images/ico_search.png" class="bk" alt="서치아이콘">
+                                    <img src="../images/ico_search_w.png" class="wh" alt="서치아이콘흰색">
+                                </a>
+                            </div>
+                            <div class="cart">
+                                <a href="#x">
+                                    <img src="../images/ico_cart.png" class="bk" alt="카트아이콘">
+                                    <img src="../images/ico_cart_w.png" class="wh" alt="카트아이콘흰색">
+                                </a>
+                            </div>
+                            <div class="search">
+                                <a href="#x">
+                                    <img src="../images/ico_my.png" class="bk" alt="로그인아이콘">
+                                    <img src="../images/ico_my_w.png" class="wh" alt="로그인아이콘흰색">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            
+        </div> 
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../images/slide_01.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/slide_02.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/slide_03.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/slide_04.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="btn01"></div>
+            <div class="btn02"></div>
+    
+        </div>
+       
+        <div class="contents">
+            <div class="section01"></div>
+            <div class="section02"></div>
+        </div>
+
+        <div class="slider02"></div>
+
+        <div class="video"></div>
+
+    </div>
+
+    
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container',{
+            loop:ture,
+            pagination:{
+                el:'swiper-pagination',
+            },
+            navigation:{
+                nextEl:'btn02',
+                prevEl:'btn01',
+
+            },
+        })
+    </script>
+
+</body>
+</html>
