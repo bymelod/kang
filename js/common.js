@@ -1,36 +1,11 @@
 $(function () {
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'vertical',
-        loop: true,
-      
-        // If we need pagination
-        pagination: {
-          el: '.swiper-pagination',
-        },
-      
-        // Navigation arrows
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      
-        // And if we need scrollbar
-        scrollbar: {
-          el: '.swiper-scrollbar',
-        },
-      });
+  $('#header').load('../inc/header.html')
+  $('.footer').load('../inc/footer.html')
 
-      $(document).ready(function(){
-        var mySwiper = new Swiper('.swiper-container',{
-            direction:'vertical',
-            loop:ture
-      })
-    });
-
-
-
- 
-
+// main 슬라이드
+$('.slide').slick({
+  // autoplay: true,
+  // autoplaySpeed: 4000
+}) 
 
 })
